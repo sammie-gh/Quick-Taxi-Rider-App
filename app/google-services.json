@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "98544795950",
+    "firebase_url": "https://uberclone-2020-4871d.firebaseio.com",
+    "project_id": "uberclone-2020-4871d",
+    "storage_bucket": "uberclone-2020-4871d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98544795950:android:707cf97f69b75cecd53abf",
+        "android_client_info": {
+          "package_name": "com.gh.sammie.quicktaxiriderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98544795950-65aqhf4mcu5tkmcm51ibsjm56ikclvqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNtFQdFtnMX-pGb19mJOsO5f4RIvQlBIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98544795950-65aqhf4mcu5tkmcm51ibsjm56ikclvqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98544795950:android:76cbf166aa9d7194d53abf",
+        "android_client_info": {
+          "package_name": "com.gh.sammie.ubberclone2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98544795950-65aqhf4mcu5tkmcm51ibsjm56ikclvqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNtFQdFtnMX-pGb19mJOsO5f4RIvQlBIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98544795950-65aqhf4mcu5tkmcm51ibsjm56ikclvqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

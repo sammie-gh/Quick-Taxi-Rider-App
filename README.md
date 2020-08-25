@@ -2,8 +2,8 @@
  Quick TAxi 
  
  !# Screens
- ![](Screens/Get Started.png)
+ ![](Screens/get_started.png)
  ![](Screens/auth_screen.png)
- ![](Screens/Current Location.png)
+ ![](Screens/current_location.png)
  
  

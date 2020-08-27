@@ -9,21 +9,21 @@ public class Common {
     public static final String NOTI_TITLE = "title";
     public static final String NOTI_CONTENT = "body";
     public static final String RIDER_INFO_REF = "Riders";
-    public static RiderModel currentUser;
+    public static RiderModel currentRider;
 
 
-//    //logo
-//    public static String buildWelcomeMessage() {
-//        if (Common.currentUser != null) {
-//            return new StringBuilder("Welcome ")
-//                    .append(Common.currentUser.getFirstName())
-//                    .append(" ")
-//                    .append(Common.currentUser.getLastName()).toString();
-//        } else
-//            return "";
-//
-//
-//    }
+    //logo
+    public static String buildWelcomeMessage() {
+        if (Common.currentRider != null) {
+            return new StringBuilder("Welcome ")
+                    .append(Common.currentRider.getFirstName())
+                    .append(" ")
+                    .append(Common.currentRider.getLastName()).toString();
+        } else
+            return "";
+
+
+    }
 
     //Notifications
 //    public static void showNotification(Context context, int id, String title, String body, Intent i) {

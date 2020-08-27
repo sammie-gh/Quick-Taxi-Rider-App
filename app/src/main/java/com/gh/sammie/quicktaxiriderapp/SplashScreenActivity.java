@@ -192,7 +192,9 @@ public class SplashScreenActivity extends AppCompatActivity {
     }
 
     private void showLoginLayout() {
-        finish(); // to prevent crash
+//        finish(); // to prevent crash
+  //TODO also remove to prevent alert crash to be fixed
+
         AuthMethodPickerLayout authMethodPickerLayout = new AuthMethodPickerLayout.Builder(
                 R.layout.layout_sign_in)
                 .setPhoneButtonId(R.id.btn_phone_sign_in)
@@ -216,7 +218,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 if (snapshot.exists()) {
                     RiderModel riderModel = snapshot.getValue(RiderModel.class);
                     gotoHomeActivity(riderModel);
-                    // Toast.makeText(SplashScreenActivity.this, "User Already Registered", Toast.LENGTH_SHORT).show();
+//                     Toast.makeText(SplashScreenActivity.this, "User Already Registered", Toast.LENGTH_SHORT).show();
                 } else showRegisterLayout();
             }
 
@@ -296,7 +298,7 @@ public class SplashScreenActivity extends AppCompatActivity {
     }
 
     private void gotoHomeActivity(RiderModel riderModel) {
-        Common.currentUser = riderModel; //init value
+        Common.currentRider = riderModel; //init value
         startActivity(new Intent(SplashScreenActivity.this, HomeActivity.class));
         finish();
     }

@@ -71,6 +71,9 @@ dependencies {
     //circle image view
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
+    //Geofire
+    implementation 'com.firebase:geofire-android:3.0.0'
+
     //Glide
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
